@@ -9,8 +9,12 @@ to run the Rubin Observatory `ci_summit` tests.
 Contents of this package
 ------------------------
 
-The ``raw/`` directory contains 1 raw file from AuxTel observations.
-Its data ID is ``{"day_obs": 20210121, "seq_num": 743, "detector": 0}``.
+The ``raw/`` directory contains raw files from AuxTel observations as copied
+from ``/sdf/group/rubin/lsstdata/offline/instrument/LATISS/storage/`` at USDF.
+Their data IDs are:
+- ``{'day_obs': 20200315, 'seq_num': 120, 'detector': 0}``
+- ``{"day_obs": 20210121, "seq_num": 742, "detector": 0}``
+- ``{"day_obs": 20210121, "seq_num": 743, "detector": 0}``
 
 Git LFS
 -------
